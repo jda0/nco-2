@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <title>nco2&alpha; &ndash; <%= title %></title>
+      <meta charset="utf-8">
+   <!--[if gte IE 9 | !IE]><!-->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/g/pure@0.6.0(pure-min.css+grids-responsive.css)">
+      <link rel="stylesheet" href="style.css">
+   <![endif]-->
+   </head>
+   <body>
+   <!--[if lt IE 9]>
+      Your browser is unsupported.
+   <![endif]-->
+   <!--[if gte IE 9 | !IE]><!-->
+      <noscript>
+         Please enable Javascript.
+      </noscript>
+      <script src="https://cdn.jsdelivr.net/g/mithril@0.1.30,validate.js@1.1"></script>
+      <script src="https://www.parsecdn.com/js/parse-1.3.5.min.js"></script>
+      <script>
+         window.session = <%= config %>;
+      </script>
+      <script src="<%= script %>"></script>
+   <![endif]-->
+   </body>
+</html>

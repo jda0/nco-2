@@ -1,0 +1,24 @@
+{
+  "name": "nco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Daly",
+  "license": "GNU GPL v3.0",
+  "dependencies": {
+    "bcrypt": "~0.8.2",
+    "body-parser": "~1.12.2",
+    "cloudant": "~1.0.0-beta3",
+    "email": "~0.2.6",
+    "express": "~4.12.3",
+    "express-session": "~1.10.4",
+    "moment": "~2.10.0",
+    "validator": "~3.37.0"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
