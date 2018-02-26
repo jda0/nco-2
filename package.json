@@ -15,7 +15,7 @@
     "email": "~0.2.6",
     "express": "~4.12.3",
     "express-session": "~1.10.4",
-    "moment": "~2.10.0",
+    "moment": "~2.11.2",
     "validator": "~3.37.0"
   },
   "engines": {
